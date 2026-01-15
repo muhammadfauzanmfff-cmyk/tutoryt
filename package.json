@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
-},
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "swiper": "^12.0.3"
   }
 }
